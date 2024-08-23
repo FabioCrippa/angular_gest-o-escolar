@@ -1,0 +1,41 @@
+.container__menu-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo__menu-bar {
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+h1 {
+    font-size: 16px;
+    color: rgb(0, 108, 139);
+}
+
+.lista__menu-bar > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: rgb(0, 108, 139);
+}
+
+.lista__menu-bar > ul > li {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+button {
+    margin-left: 10px;
+    border-radius: 25px;
+    width: 129px;
+    height: 42px;
+    border: none;
+    background: rgb(252, 127, 56);
+    color: white;
+    font-weight: bold;
+}
