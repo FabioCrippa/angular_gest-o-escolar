@@ -1,0 +1,63 @@
+.container__footer-card {
+    display: flex;
+}
+
+.container__address-card {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.address > p {
+    width: 62%;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.container__social-card {
+    display: flex;
+}
+
+.title {
+    font-family: cursive;
+    color: rgb(137, 190, 255);
+    width: 112px;
+    margin-left: 50px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.arrow > img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo-facebook > img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright > p {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
