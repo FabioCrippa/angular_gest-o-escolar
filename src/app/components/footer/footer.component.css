@@ -1,5 +1,7 @@
 .container__footer-card {
     display: flex;
+    width: 100%;
+    height: 120px;
 }
 
 .container__address-card {
@@ -23,12 +25,17 @@
 
 .container__social-card {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+
 }
 
-.title {
+.title > h3 {
     font-family: cursive;
+    font-size: 18px;
     color: rgb(137, 190, 255);
-    width: 112px;
     margin-left: 50px;
 }
 

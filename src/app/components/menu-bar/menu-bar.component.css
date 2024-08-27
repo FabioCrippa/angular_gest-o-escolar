@@ -1,41 +1,43 @@
 .container__menu-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 80px;
 }
 
 .logo__menu-bar {
-    display: flex;
-    width: 70px;
-    height: 70px;
+  display: flex;
+  width: 400px;
+  height: 70px;
 }
 
-h1 {
-    font-size: 16px;
-    color: rgb(0, 108, 139);
+.logo__menu-bar > h1 {
+  font-size: 22px;
+  color: rgb(0, 108, 139);
+  margin-right: 20px;
 }
 
 .lista__menu-bar > ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    color: rgb(0, 108, 139);
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: rgb(0, 108, 139);
 }
 
 .lista__menu-bar > ul > li {
-    margin-right: 20px;
-    font-weight: bold;
+  margin-right: 20px;
+  font-weight: bold;
 }
 
 button {
-    margin-left: 10px;
-    border-radius: 25px;
-    width: 129px;
-    height: 42px;
-    border: none;
-    background: rgb(252, 127, 56);
-    color: white;
-    font-weight: bold;
+  margin-left: 10px;
+  border-radius: 25px;
+  width: 129px;
+  height: 42px;
+  border: none;
+  background: rgb(252, 127, 56);
+  color: white;
+  font-weight: bold;
 }

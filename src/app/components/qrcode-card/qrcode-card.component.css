@@ -12,6 +12,7 @@
 }
 
 .small-container {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,8 +22,10 @@
 .container__chave-pix {
     width: 50%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    margin: auto;
+    padding-right: 15px;
 }
 
 .chavepix > h1 {
