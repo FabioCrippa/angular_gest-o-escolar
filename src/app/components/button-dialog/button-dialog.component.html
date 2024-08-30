@@ -1,3 +1,23 @@
-<p>button-dialog works!</p>
-<a href="https://www.youtube.com/watch?v=lrVpUVydZwM&list=PLC3y8-rFHvwilEuCqFGTL5Gt5U6deIrsU&index=26"></a>
-<button mat-button (click)="openDialog()">Acessar</button>
+<div class="container__dialog">
+    <div class="container__title">
+        <h2 mat-dialog-title>Selecione seu perfil de acesso</h2>
+    </div>
+    <mat-dialog-actions>
+        <div class="container__profile-access">
+            <img src= "https://img.icons8.com/3d-fluency/94/book.png" alt="book"/>
+            <h3>Escola</h3>
+            <a router="/login"><button>Acessar</button></a>
+        </div>
+        <div class="container__profile-access">
+            <img src="https://img.icons8.com/emoji/48/blue-heart.png" alt="blue-heart"/>
+            <h3>Responsável</h3>
+            <a routerLink="/login"><button>Acessar</button></a>
+        </div>
+        <div class="container__profile-access">
+            <img src="https://img.icons8.com/color/48/clew.png" alt="clew"/>
+            <h3>Aluno</h3>
+            <a routerLink="/login"><button>Acessar</button></a>
+        </div>
+    </mat-dialog-actions>
+
+</div>
