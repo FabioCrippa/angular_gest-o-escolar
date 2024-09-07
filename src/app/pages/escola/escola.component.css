@@ -1,0 +1,82 @@
+.menu-bar__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(0,108,139);
+    margin: auto;
+}
+
+.menu-bar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-bar__logo > h1 {
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+}
+
+.menu-bar__list > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-bar__list > ul > li {
+    display: flex;
+    margin-right: 15px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Segoe UI';
+}
+
+.menu-bar__button > button {
+    background-color: rgb(255,126,53);
+    border-radius: 50px;
+    width: 150px;
+    height: 35px;
+    color: white;
+    border: none;
+    font-family: 'Segoe UI';
+}
+
+.button__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-box__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    position: relative;
+
+    width: 200px;
+    height: 60px;
+    background-color: rgb(255,126,53);
+    border-radius: 5px;
+}
+
+.button-box__icon {
+    position: absolute;
+    left: 0;
+}
+
+.button-box__icon > img {
+   width: 30px;
+   margin-left: 10px;
+}
+
+.button-box__container > a > button {
+    font-size: 16px;
+    color: white;
+    background-color: rgb(255,126,53);
+    border: none;
+    margin-left: 30px;
+}
