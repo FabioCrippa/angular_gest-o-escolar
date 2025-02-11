@@ -3,6 +3,11 @@
     justify-content: center;
 }
 
+.title__qrcode-card > h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .container__qrcode-card {
     display: flex;
     background-color: rgb(0, 134, 172);
@@ -12,11 +17,12 @@
 }
 
 .small-container {
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-left: 15px;
+    width: 50%;
 }
 
 .container__chave-pix {
@@ -24,8 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    padding-right: 15px;
+    text-align: center;
 }
 
 .chavepix > h1 {
@@ -35,5 +40,5 @@
 .photo-qrcode > img {
     width: 200px;
     height: 200px;
-    margin-left: 10px;
+    margin-left: 40px;
 }

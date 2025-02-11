@@ -1,23 +1,200 @@
-.header__container {
+.school-card__container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     padding-top: 20px;
 }
 
-.logo > img {
-    width: 150px;
-    height: 120px;
+.school-card {
+    display: flex;
+    justify-content: center;
+    border: 6px solid blue;
+    width: 450px;
 }
 
-.logo-information {
+.img__perfile {
+    display: flex;
+    justify-content: center;
+}
+
+.img__perfile > img {
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.school-information {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.logo-information > h3 {
+.school-information > h3 {
     font-size: 10px;
     line-height: 1;
     margin-left: 10px;
+}
+
+.personal-data__container {
+    margin-left: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title > h1 {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+}
+
+.fname__container {
+    display: flex;
+}
+
+.fname {
+    margin-right: 10px;
+}
+
+.fname > label {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+}
+
+.fname > input {
+    display: flex;
+    text-align: center;
+    border-radius: 25px;
+    outline: 0;
+    border-color: rgb(219, 219, 219);
+}
+
+
+.matricula > input {
+    display: flex;
+    text-align: center;
+    width: 70px;
+    border-radius: 25px;
+    outline: 0;
+    border-color: rgb(219, 219, 219);
+}
+
+.matricula > label {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+}
+
+.course__container {
+    display: flex;
+}
+
+.course {
+    margin-right: 10px;
+}
+
+.course > input {
+    display: flex;
+    text-align: center;
+    border-radius: 25px;
+    outline: 0;
+    border-color: rgb(219, 219, 219);
+}
+
+.course > label {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+}
+
+.group > input {
+    display: flex;
+    text-align: center;
+    width: 70px;
+    border-radius: 25px;
+    outline: 0;
+    border-color: rgb(219, 219, 219);
+}
+
+.group > label {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+}
+
+.identity__container {
+    display: flex;
+}
+
+.identity > input {
+    display: flex;
+    text-align: center;
+    margin-right: 10px;
+    width: 100px;
+    border-radius: 25px;
+    outline: 0;
+    border-color: rgb(219, 219, 219);
+}
+
+.identity > label {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+}
+
+.CPF > input {
+    display: flex;
+    text-align: center;
+    width: 100px;
+    border-radius: 25px;
+    outline: 0;
+    border-color: rgb(219, 219, 219);
+}
+
+.CPF > label {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+}
+
+.date__container {
+    display: flex;
+}
+
+.date {
+    margin-right: 20px;
+}
+
+.date > input {
+    display: flex;
+    text-align: center;
+    width: 80px;
+    border-radius: 25px;
+    outline: 0;
+    border-color: rgb(219, 219, 219);
+}
+
+.date > label {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+}
+
+.valid > input {
+    display: flex;
+    text-align: center;
+    background-color: rgb(255, 126, 53);
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    outline: 0;
+    border-color: rgb(219, 219, 219);
+}
+
+.valid > label {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
 }
