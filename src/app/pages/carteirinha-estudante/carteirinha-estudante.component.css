@@ -1,200 +1,151 @@
 .school-card__container {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .school-card {
     display: flex;
-    justify-content: center;
-    border: 6px solid blue;
     width: 450px;
+    height: 250px;
+    background-color: rgb(0, 131, 167);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-right: 10px;
+}
+
+.title > h1 {
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: rgb(255, 126, 53);
 }
 
 .img__perfile {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .img__perfile > img {
     width: 100px;
+}
+
+.img__qrcode {
+    display: flex;
+    justify-content: center;
+}
+
+.img__qrcode > img {
+    width: 60px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-.school-information {
+.personal-data__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+    color: white;
+    width: 60%;
 
-.school-information > h3 {
     font-size: 10px;
-    line-height: 1;
-    margin-left: 10px;
-}
-
-.personal-data__container {
-    margin-left: 30px;
-}
-
-.title {
-    display: flex;
-    justify-content: center;
-}
-
-.title > h1 {
-    font-size: 14px;
     font-weight: 500;
     font-family: 'Segoe UI';
 }
 
-.fname__container {
+.img__logo {
     display: flex;
+    justify-content: end;
 }
 
-.fname {
-    margin-right: 10px;
+.img__logo > img {
+    border-radius: 50%;
+    width: 60px;
 }
-
 .fname > label {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     font-family: 'Segoe UI';
 }
 
-.fname > input {
+.valid {
     display: flex;
-    text-align: center;
-    border-radius: 25px;
-    outline: 0;
-    border-color: rgb(219, 219, 219);
-}
-
-
-.matricula > input {
-    display: flex;
-    text-align: center;
-    width: 70px;
-    border-radius: 25px;
-    outline: 0;
-    border-color: rgb(219, 219, 219);
-}
-
-.matricula > label {
-    font-size: 12px;
-    font-weight: 500;
-    font-family: 'Segoe UI';
-}
-
-.course__container {
-    display: flex;
-}
-
-.course {
-    margin-right: 10px;
-}
-
-.course > input {
-    display: flex;
-    text-align: center;
-    border-radius: 25px;
-    outline: 0;
-    border-color: rgb(219, 219, 219);
-}
-
-.course > label {
-    font-size: 12px;
-    font-weight: 500;
-    font-family: 'Segoe UI';
-}
-
-.group > input {
-    display: flex;
-    text-align: center;
-    width: 70px;
-    border-radius: 25px;
-    outline: 0;
-    border-color: rgb(219, 219, 219);
-}
-
-.group > label {
-    font-size: 12px;
-    font-weight: 500;
-    font-family: 'Segoe UI';
-}
-
-.identity__container {
-    display: flex;
-}
-
-.identity > input {
-    display: flex;
-    text-align: center;
-    margin-right: 10px;
-    width: 100px;
-    border-radius: 25px;
-    outline: 0;
-    border-color: rgb(219, 219, 219);
-}
-
-.identity > label {
-    font-size: 12px;
-    font-weight: 500;
-    font-family: 'Segoe UI';
-}
-
-.CPF > input {
-    display: flex;
-    text-align: center;
-    width: 100px;
-    border-radius: 25px;
-    outline: 0;
-    border-color: rgb(219, 219, 219);
-}
-
-.CPF > label {
-    font-size: 12px;
-    font-weight: 500;
-    font-family: 'Segoe UI';
-}
-
-.date__container {
-    display: flex;
-}
-
-.date {
-    margin-right: 20px;
-}
-
-.date > input {
-    display: flex;
-    text-align: center;
-    width: 80px;
-    border-radius: 25px;
-    outline: 0;
-    border-color: rgb(219, 219, 219);
-}
-
-.date > label {
-    font-size: 12px;
-    font-weight: 500;
-    font-family: 'Segoe UI';
-}
-
-.valid > input {
-    display: flex;
-    text-align: center;
-    background-color: rgb(255, 126, 53);
-    width: 80px;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    outline: 0;
-    border-color: rgb(219, 219, 219);
+    align-items: center;
+    justify-content: end;
 }
 
 .valid > label {
-    font-size: 12px;
+    font-size: 30px;
     font-weight: 500;
     font-family: 'Segoe UI';
+    color: rgb(255, 126, 53);
+    margin-left: 5px;
+}
+
+.valid > img {
+    width: 30px;
+}
+
+#myInput {
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    padding: 12px 20px 12px 40px;
+    font-size: 16px;
+    width: 100%;
+    background-image: 5px;
+    background-repeat: no-repeat;
+    background-position: 10px 12px;
+    background-size: 20px;
+    background-image: url(https://img.icons8.com/?size=100&id=83218&format=png&color=000000);
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* 
+    O seletor ":nth-child" permite selecionar elementos 
+    com base na sua posição em relação 
+    aos seus irmãos. É um pseudo-classe que pode ser usada 
+    para aplicar estilos dinâmicos e organizar layouts. 
+
+    O seletor ":nth-child" recebe um argumento que pode ser um número, 
+    uma fórmula matemática ou as palavras-chave "odd" ou "even" 
+    
+    O "n" em "nth" significa "enésimo".
+
+    A fórmula An+B é usada para calcular o resultado.
+
+    A fórmula pode ser usada para aplicar estilos a 
+    elementos alternativos, selecionando 
+    elementos específicos por número. 
+*/
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.print-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.print-card > button {
+    cursor: pointer;
 }

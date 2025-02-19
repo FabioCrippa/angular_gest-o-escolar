@@ -2,70 +2,106 @@
     <div class="school-card">
 
         <div class="header__container">
-            <div class="img__perfile">
-                <img src="https://img.icons8.com/color/48/circled-user-female-skin-type-1-2--v1.png" alt="" srcset="">
+            <div class="title">
+                <h1>CARTEIRINHA DE ESTUDANTE</h1>
             </div>
-            <div class="school-information">
-                <h3>Lar Escola Rita Maria de Jesus</h3>
-                <h3>R.Cândido Portinari, 46</h3>
-                <h3>Jardim Floridiana(Vila Xavier)</h3>
-                <h3>Araraquara - SP</h3>
-                <h3>(16) 3337-4760</h3>
+
+            <div class="img__perfile">
+                <img src="https://cdn-icons-png.flaticon.com/512/9159/9159762.png">
+            </div>
+
+            <div class="img__qrcode">
+                <img src="https://img.icons8.com/?size=100&id=6ozUksPEPg6G&format=png&color=000000" alt="">
             </div>
         </div>
     
         <div class="personal-data__container">
-            <div class="title">
-                <h1>Carteirinha de estudante</h1>
-            </div>
-    
-            <div class="fname__container">
+
+                <div class="img__logo">
+                    <img src="https://scontent.fqsc2-1.fna.fbcdn.net/v/t39.30808-1/302418061_758974392167104_1166910054634756345_n.png?stp=dst-png_s200x200&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Yj6auzleAm4Q7kNvgF-_i9B&_nc_oc=AdjCdiDI9iyvp6CGjaWYV2ODOnOIcReKB-Sjj9gSad2FJF7YiUZ_bvAtEjJZnpkmS-upXy5vQwodPnixxUpUtmVh&_nc_zt=24&_nc_ht=scontent.fqsc2-1.fna&_nc_gid=ArvA8qAVZlaIBTgZxpNAUV3&oh=00_AYB59Io7756kKnwXa9cm4zeJR1jE8Zb4gsFaZ7izny6pOQ&oe=67BACAE2" alt="">
+                </div>
+
                 <div class="fname">
-                    <label for="fname">Nome Completo</label>
-                    <input type="text" name="" id="" placeholder="Barbara Crippa">
+                    <label for="fname">GABRIELI CRIPPA SANCASSANI</label>
                 </div>
-    
+            
+
                 <div class="matricula">
-                    <label for="matricula">Matrícula</label>
-                    <input type="text" name="" id="" placeholder="000100">
+                    <label for="matricula">Matrícula: 01000</label>
                 </div>
-            </div>
     
-            <div class="course__container">
+            
                 <div class="course">
-                    <label for="curso">Curso</label>
-                    <input type="text" name="" id="" placeholder="Ensino Fundamental II">
+                    <label for="curso">ENSINO FUNDAMENTAL</label>
                 </div>
     
                 <div class="group">
-                    <label for="turma">Turma</label>
-                    <input type="text" name="" id="" placeholder="9A">
+                    <label for="turma">4A</label>
                 </div>
-            </div>
-    
-            <div class="identity__container">
+            
                 <div class="identity">
-                    <label for="identity">RG</label>
-                    <input type="text" name="" id="" placeholder="3215298877">
+                    <label for="identity">RA: 33.333.333-33</label>
                 </div>
-    
-                <div class="CPF">
-                    <label for="CPF">CPF</label>
-                    <input type="text" name="" id="" placeholder="29568739906">
-                </div>
-            </div>
-    
-            <div class="date__container">
+            
                 <div class="date">
-                    <label for="date">Data de nascimento</label>
-                    <input type="text" name="" id="" placeholder="15/02/2020">
+                    <label for="date">DATA DE NASC. 01/11/2003</label>
                 </div>
-    
-                <div class="valid">
-                    <label for="valid">Validade</label>
-                    <input type="text" name="" id="" placeholder="15/02/2025">
-                </div>
+            
+            <div class="valid">
+                <img src="https://img.icons8.com/?size=100&id=b-XFIFHiuLgD&format=png&color=000000" alt="">
+                <label for="valid">2025</label>
             </div>
         </div>
     </div>
+</div>
+
+<div class="filter__container">
+    <div class="filter__name">
+        <input type="text" name="" id="myInput" placeholder="Pesquisa por nomes">
+    </div>
+
+    <!-- tr: row / td: table data(células) / table header: cabeçalho -->
+    <div class="table">
+        <table>
+            <tr>
+                <th>ALUNO</th>
+                <th>MATRÍCULA</th>
+                <th>CURSO</th>
+                <th>TURMA</th>
+                <th>RA</th>
+                <th>DATA DE NASC.</th>
+            </tr>
+            
+            <tr>
+                <td>Gabrieli Crippa Sancassani</td>
+                <td>01000</td>
+                <td>Ensino Fundamental</td>
+                <td>4A</td>
+                <td>33.333.333-33</td>
+                <td>01/11/2003</td>
+            </tr>
+
+            <tr>
+                <td>Luis Crippa Sancassani</td>
+                <td>01001</td>
+                <td>Ensino Fundamental</td>
+                <td>3B</td>
+                <td>55.555.555-55</td>
+                <td>02/06/2002</td>
+            </tr>
+
+            <tr>
+                <td>Bárbara Crippa</td>
+                <td>01003</td>
+                <td>Ensino Médio</td>
+                <td>1A</td>
+                <td>66.666.666-66</td>
+                <td>15/02/2010</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="print-card">
+    <button>Imprimir</button>
 </div>
