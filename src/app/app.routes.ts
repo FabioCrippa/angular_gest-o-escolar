@@ -12,10 +12,8 @@ import { LoginResponsavelComponent } from './pages/login-responsavel/login.respo
 import { ResponsavelComponent } from './pages/responsavel/responsavel.component';
 import { LoginAlunoComponent } from './pages/login-aluno/login-aluno.component';
 import { AlunoComponent } from './pages/aluno/aluno.component';
-import { CadastroSalaAulaComponent } from './pages/cadastro-sala-aula/cadastro-sala-aula.component';
 import { ListaAlunosComponent } from './pages/lista-alunos/lista-alunos.component';
 import { ListaProfessoresComponent } from './pages/lista-professores/lista-professores.component';
-import { ListaSalasComponent } from './pages/lista-salas/lista-salas.component';
 import { NotasComponent } from './pages/notas/notas.component';
 import { ComunicadosComponent } from './pages/comunicados/comunicados.component';
 import { DiarioComponent } from './pages/diario/diario.component';
@@ -36,11 +34,9 @@ export const routes: Routes = [
     {path: 'aluno', component: AlunoComponent},
     {path: 'cadastroProfessor', component: CadastroProfessorComponent},
     {path: 'cadastroAluno', component: CadastroAlunoComponent},
-    {path: 'cadastroSala', component: CadastroSalaAulaComponent},
     {path: 'carteirinhaEstudante', component: CarteirinhaEstudanteComponent},
     {path: 'listaAlunos', component: ListaAlunosComponent},
     {path: 'listaProfessores', component: ListaProfessoresComponent},
-    {path: 'listaSalas', component: ListaSalasComponent},
     {path: 'notas', component: NotasComponent},
     {path: 'comunicados', component: ComunicadosComponent},
     {path: 'diario', component: DiarioComponent},

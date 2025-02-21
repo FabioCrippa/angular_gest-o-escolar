@@ -24,6 +24,16 @@
     font-weight: 500;
 }
 
+.id > label {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.id > input {
+    width: 60px;
+}
+
 .fname > label {
     font-size: 14px;
     font-weight: 500;
